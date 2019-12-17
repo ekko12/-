@@ -1,0 +1,79 @@
+
+	<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>广东省护网2019演习</title>
+</head>
+<body>
+<div id="img" style="position:absolute;z-index=99;">
+    <div style=" height: 100px;  width: 400px;   background-color:red; line-height: 0.9;line-height: 90px;font-style: normal;font-weight: 900;letter-spacing: 0.518em;letter-spacing: 0.387em">
+         <center><font   size="6"   style="font-family:微软雅黑 ; color:#ffffff; ">广东省护网2019演习
+        </center></font>
+
+<div>
+
+</div>
+<SCRIPT LANGUAGE="JavaScript">
+    <!-- Begin
+    var xPos = document.body.clientWidth-20;
+    var yPos = document.body.clientHeight/2;
+    var step = 1;
+    var delay = 5;
+    var height = 0;
+    var Hoffset = 0;
+    var Woffset = 0;
+    var yon = 0;
+    var xon = 0;
+    var pause = true;
+    var interval;
+    img.style.top = yPos;
+    function changePos() {
+        width = document.body.clientWidth;
+        height = document.body.clientHeight;
+        Hoffset = img.offsetHeight;
+        Woffset = img.offsetWidth;
+        img.style.left = xPos + document.body.scrollLeft;
+        img.style.top = yPos + document.body.scrollTop;
+        if (yon) {
+            yPos = yPos + step;
+        }else {
+            yPos = yPos - step;
+        }
+        if (yPos < 0) {
+            yon = 1;
+            yPos = 0;
+        }
+        if (yPos >= (height - Hoffset)) {
+            yon = 0;
+            yPos = (height - Hoffset);
+        }
+        if (xon) {
+            xPos = xPos + step;
+        }else {
+            xPos = xPos - step;
+        }
+        if (xPos < 0) {
+            xon = 1;
+            xPos = 0;
+        }
+        if (xPos >= (width - Woffset)) {
+            xon = 0;
+            xPos = (width - Woffset);
+        }
+    }
+    function start() {
+        img.visibility = "visible";
+        interval = setInterval('changePos()', delay);
+    }
+    start();
+    img.onmouseover = function() {
+        clearInterval(interval);
+        interval = null;
+    }
+    img.onmouseout = function() {
+        interval = setInterval('changePos()', delay);
+    }
+    //  End -->
+</script>
+</body>
+</html>
